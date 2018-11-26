@@ -80,6 +80,10 @@ public class ScheduledTasks {
 把邮箱配置信息改为你的账号密码，然后发送人也改一下，就好了，打成jar包部署
 如果用QQ游戏需要第三方客户端授权码，就是**密码换为第三方授权码**！！！
 
+### web天气查询
+如果你想看web页面的天气，可以直接访问 http://localhost:9999
+![](https://i.imgur.com/neZGiHO.jpg)
+
 ### 问题建议
 
 - 联系我的邮箱：ilovey_hwy@163.com
