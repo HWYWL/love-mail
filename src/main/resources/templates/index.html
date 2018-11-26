@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="utf-8">
+    <title>LOVE</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/autocomplete.css">
+</head>
+<body>
+<div class="card">
+    <div class="card-block weather-block">
+        <div class="wrapper">
+            <div id="search-form"></div>
+            <div id="areaId" hidden></div>
+        </div>
+        <div style="display:inline">
+            <div id="container1" style="width:49%;min-height:0px;display:inline-block"></div>
+            <div id="container2" style="width:49%;min-height:0px;display:inline-block"></div>
+        </div>
+        <div style="display:inline">
+            <div id="container3" style="width:100%;min-height:0px;display:inline-block">
+            </div>
+            <div id="container4" style="width:100%;min-height:0px;display:inline-block">
+            </div>
+            <div id="container5" style="width:100%;min-height:0px;display:inline-block">
+            </div>
+            <div id="container6" style="width:100%;min-height:0px;display:inline-block">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script data-th-inline="javascript">
+    var ctx = [[@{/}]];
+</script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/highcharts.js"></script>
+<script type="text/javascript" src="/js/autocomplete_weather.js"></script>
+<script type="text/javascript" src="/js/weather.js"></script>
+</body>

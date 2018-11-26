@@ -22,6 +22,8 @@ public class Config {
     private static String password;
     public static String to;
 
+    public static final String MEIZU_WEATHER_URL = "http://aider.meizu.com/app/weather/listWeather";
+
     @Bean
     public String before() throws GeneralSecurityException {
         // 配置，一次即可
