@@ -2,7 +2,7 @@
 爱的邮件，定时给我家妹子发一份
 
 ### 先看效果
-![](https://i.imgur.com/qVYCVG5.jpg)
+![](https://i.imgur.com/SSlfZDi.jpg)
 
 ### 分析源码
 
