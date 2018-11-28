@@ -23,6 +23,7 @@ public class Config {
     public static String to;
 
     public static final String MEIZU_WEATHER_URL = "http://aider.meizu.com/app/weather/listWeather";
+    public static final String HOROSCOPE = "http://www.xzw.com/fortune/gemini/";
 
     @Bean
     public String before() throws GeneralSecurityException {
